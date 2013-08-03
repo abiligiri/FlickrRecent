@@ -1,4 +1,6 @@
-package com.anandb.android.flcikrrecent;
+package com.anandb.android.flickrrecent;
+
+import com.anandb.android.flickrrecent.R;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -10,6 +12,8 @@ public class PhotoGalleryActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_photo_gallery);
+		
+		
 	}
 
 	@Override
